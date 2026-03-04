@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import './ChipList.css';
 import { Chip } from '@shared/chip';
 import { Popup } from '@shared/pop-up';
-import { IChipListProps, useChipsVisibility, useChipClick } from '@features/chips';
+import { IChipListProps, useChipsVisibility, useChipClick } from '@features/chip-List';
 
 export const ChipList: React.FC<IChipListProps> = ({
   chips,

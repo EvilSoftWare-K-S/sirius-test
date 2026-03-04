@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { IUseChipsVisibilityProps, IUseChipsVisibilityReturn, TChip } from '@features/chips';
+import { IUseChipsVisibilityProps, IUseChipsVisibilityReturn, TChip } from '@features/chip-List';
 
 export const useChipsVisibility = ({
   chips,
