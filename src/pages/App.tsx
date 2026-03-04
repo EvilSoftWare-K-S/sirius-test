@@ -1,4 +1,4 @@
-import { ChipList } from '@features/chips';
+import { ChipList } from '@features/chip-List';
 import { Chip } from '@shared/chip';
 import React, { useState } from 'react';
 

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { IUseChipClickProps, IUseChipClickReturn } from '@features/chips';
+import { IUseChipClickProps, IUseChipClickReturn } from '@features/chip-List';
 
 export const useChipClick = ({
   multiple,
