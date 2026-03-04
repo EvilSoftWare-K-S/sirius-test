@@ -1,0 +1,42 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 16px;
+  background-color: #e0e0e0;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  user-select: none;
+}
+
+.chip:hover:not(.chip-disabled) {
+  background-color: #d0d0d0;
+}
+
+.chip-selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.chip-selected:hover:not(.chip-disabled) {
+  background-color: #0056b3;
+}
+
+.chip-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.chip-checkmark {
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+.chip-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
